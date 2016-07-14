@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 		
 		changeTextButton.setOnClickListener(new View.OnClickListener() {
 			@Override
-			public vodi onClick(View v){
+			public void onClick(View v){
 				int random = (int) (Math.random() * manyDifferentStrings.length);
 				if (random == oldVaue) {
 					random = (int) (Math.random() * manyDifferentStrings.length);
